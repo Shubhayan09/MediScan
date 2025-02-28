@@ -1,0 +1,185 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+  }
+  
+  header .logo h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  header .search-bar {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+  }
+  
+  header .search-bar input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  header .search-bar button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+  
+  header .user-actions {
+    display: flex;
+    gap: 20px;
+  }
+  
+  header .user-actions a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Hero Section Styles */
+  .hero {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .hero h2 {
+    font-size: 36px;
+    margin: 0;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  .hero .cta-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  /* Categories Section Styles */
+  .categories {
+    padding: 40px 0;
+  }
+  
+  .categories h3 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .category-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+  }
+  
+  .category-item {
+    text-align: center;
+  }
+  
+  .category-item img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .category-item p {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  /* Featured Products Section Styles */
+  .featured-products {
+    padding: 40px 0;
+    background-color: #f9f9f9;
+  }
+  
+  .featured-products h3 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .product-item {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-item img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+  }
+  
+  .product-item p {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .product-item .price {
+    font-weight: bold;
+    color: #4CAF50;
+  }
+  
+  .product-item button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  footer .footer-links {
+    margin-top: 10px;
+  }
+  
+  footer .footer-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+  }
